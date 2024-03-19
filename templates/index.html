@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+{% block content %}
+    <div class="row">
+        <div class="col-2"></div>
+        <div class="col-5">
+        
+            Paste your text here (max 30,000 chars)
+            <br/>
+            <form action="analyze", method="post">
+                {{ form.csrf_token}}
+                {{ form.text() | safe }}
+                <br/>
+                {{ form.submit }}
+            </form>    
+           
+        </div>
+        <div class="col-1"></div>
+        <div class="col">
+            <h4>The weasel words</h4>
+            {% for word in weasel_words %}
+             {{ word }}<br/>
+            {% endfor %}
+
+        </div>
+    </div>
+</div>
+{% endblock %}
