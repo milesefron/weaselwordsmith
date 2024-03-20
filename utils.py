@@ -15,6 +15,7 @@ def handle_long_text(text, max_length, api_endpoint, api_method):
         r = requests.post(url = api_endpoint + '/' + api_method, params = parameters)
         part_analysis = r.json()
 
+        print(json.dumps(part_analysis, indent=4))
         for term in part_analysis['counts']:
             current = analysis.get('counts').get(term, 0)
             analysis['counts'][term] = current + part_analysis['counts'][term]

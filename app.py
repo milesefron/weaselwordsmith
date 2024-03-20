@@ -76,13 +76,13 @@ def analyze_stats():
       return render_template('index.html', form=form, weasel_words=weasel_words)
    
    if len(text) > STORY_MAX_SEGMENT_LENGTH:
-      analysis = utils.handle_long_text(text, STORY_MAX_SEGMENT_LENGTH, api_endpoint, 'analysis')
+      analysis = utils.handle_long_text(text, STORY_MAX_SEGMENT_LENGTH, api_endpoint, 'stats')
    else:
       parameters = {'text': text}
       r = requests.post(url = api_endpoint + '/stats', params = parameters)
       analysis = r.json()
       
-   print(json.dumps(analysis, indent=4))
+   #print(json.dumps(analysis, indent=4))
    message = 'Statistical report for your prose'         
    return render_template('analyze.html', analysis=analysis, message=message)
 
