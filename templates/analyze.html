@@ -8,7 +8,7 @@
         <div class="col-md-4">
             <h1>Your Results</h1>
             <p>
-                We found {{ analysis.counts | length}} of the {{ weasel_words | length }} weasel words.
+                {{ message }}
             </p>
 
             <p>
@@ -45,11 +45,12 @@
         <div class="col">
             <div class="col-1"></div>
         <div class="col">
+            {% if weasel_words %}
             <h4>The weasel words</h4>
-            {% for word in weasel_words %}
-             {{ word }}<br/>
-            {% endfor %}
-
+                {% for word in weasel_words %}
+                {{ word }}<br/>
+                {% endfor %}
+            {% endif %}
         </div>
         </div>
     </div>

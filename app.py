@@ -33,11 +33,18 @@ def index():
    form = TextForm()
    return render_template('index.html', form=form, weasel_words=weasel_words)
 
-
-
 @app.route('/about')
 def about():
    return render_template('about.html', weasel_words=weasel_words)
+
+@app.route('/stats')
+def stats():
+   form = TextForm()
+   return render_template('stats.html', form=form, weasel_words=weasel_words)
+
+@app.route('/help')
+def help():
+   return render_template('help.html', weasel_words=weasel_words)
 
 @app.route('/analyze', methods=('GET', 'POST'))
 def analyze():
@@ -55,9 +62,29 @@ def analyze():
       r = requests.post(url = api_endpoint + '/analysis', params = parameters)
       analysis = r.json()
       
-   print(json.dumps(analysis, indent=4))         
-   return render_template('analyze.html', weasel_words=weasel_words, analysis=analysis)
+   print(json.dumps(analysis, indent=4))
+   message = 'We found ' + str(len(analysis['counts'])) + ' of the ' + str(len(weasel_words)) + ' weasel words in your prose.'         
+   return render_template('analyze.html', weasel_words=weasel_words, analysis=analysis, message=message)
 
+@app.route('/stats', methods=('GET', 'POST'))
+def analyze_stats():
+   text = request.form['text']
+
+   if len(text) > STORY_MAX_LENGTH:
+      form = TextForm()
+      flash('Too long! Try a shorter paste.')
+      return render_template('index.html', form=form, weasel_words=weasel_words)
+   
+   if len(text) > STORY_MAX_SEGMENT_LENGTH:
+      analysis = utils.handle_long_text(text, STORY_MAX_SEGMENT_LENGTH, api_endpoint, 'analysis')
+   else:
+      parameters = {'text': text}
+      r = requests.post(url = api_endpoint + '/stats', params = parameters)
+      analysis = r.json()
+      
+   print(json.dumps(analysis, indent=4))
+   message = 'Statistical report for your prose'         
+   return render_template('analyze.html', analysis=analysis, message=message)
 
 
 if __name__ == "__main__":

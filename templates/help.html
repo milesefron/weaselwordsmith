@@ -1,0 +1,59 @@
+{% extends 'base.html' %}
+{% block content %}
+    <div class="row">
+        <div class="col-2"></div>
+        <div class="col-5">
+            
+            <h3>Help</h3>
+            <p>
+                The tools on this website require you to paste a body of text into a web form. When designing the site, I 
+            imagined that the pasted text would comprise a short story or an article--maybe a poem. Other text would
+            work, of course. But that's the imagined use case.
+            </p>
+            <p>
+                If you paste text longer than 30,000 characters, the site will complain and ask you to submit something
+                shorter.  Please
+                break long documents into shorter bits.
+            </p>
+
+            <h4>Weasel Words Finder</h4>
+            <p>
+                The <a href="/">weasel words finder</a> ignores case in its counting. It also ignores punctuation. Keep 
+                that in mind when reading its output.  The output consists of an accounting of which weasel words you
+                used, and how often you used them. You can click <em>expand</em> on each weasel word in the report to
+                see the sentences in which that word appeared in your story.
+            </p>
+            <p>
+                As mentioned in the <a href="about">about</a> document, the tool cuts a few corners during its counting.
+                This reduces the compute power (and the time) needed to do the counting. In a few rare cases, these simplifications 
+                could lead the results to be off by one or two. But the results should always be very close to correct.
+            </p>
+
+            <h4>Word Stats</h4>
+            <p>
+                The <a href="/stats">stats</a> tool has nothing to do with weasel words. It just gives you a list of 
+                words you used in your story, in decreasing order of frequency. Along with each word and its frequency,
+                you can expand the entries to see each word in context.  This can be useful to see if you are repeating words
+                too much.
+            </p>
+            <p>
+                Like the weasel words too, the stats tool ignores capitalization and punctuation.
+            </p>
+            <p>
+                One important thing to note: we omit accounting for words that only appear once in your story. These 
+                aren't very interesting from a statistical perspective, and omitting them greatly reduces how much data 
+                we need to send over the internet.
+            </p>
+           
+        </div>
+        <div class="col-1"></div>
+        <div class="col">
+            <h4>The weasel words</h4>
+            {% for word in weasel_words %}
+             {{ word }}<br/>
+            {% endfor %}
+
+        </div>
+    </div>
+</div>
+{% endblock %}

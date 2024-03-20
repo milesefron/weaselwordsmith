@@ -3,10 +3,10 @@
     <div class="row">
         <div class="col-2"></div>
         <div class="col-5">
-            <h4>Weasel Words Finder</h4>
+            <h4>Word Stats Tool</h4>
             Paste your text here (max 30,000 chars)
             <br/>
-            <form action="analyze", method="post">
+            <form action="stats", method="post">
                 {{ form.csrf_token}}
                 {{ form.text() | safe }}
                 <br/>
@@ -16,11 +16,6 @@
         </div>
         <div class="col-1"></div>
         <div class="col">
-            <h4>The weasel words</h4>
-            {% for word in weasel_words %}
-             {{ word }}<br/>
-            {% endfor %}
-
         </div>
     </div>
 </div>
