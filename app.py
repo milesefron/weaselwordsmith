@@ -48,7 +48,7 @@ def help():
 
 @app.route('/sitemap')
 def sitemap():
-   return render_template('sitemap.txt')
+   return render_template('sitemap.xml')
 
 @app.route('/analyze', methods=('GET', 'POST'))
 def analyze():
