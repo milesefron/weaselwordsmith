@@ -46,6 +46,10 @@ def stats():
 def help():
    return render_template('help.html', weasel_words=weasel_words)
 
+@app.route('/sitemap')
+def sitemap():
+   return render_template('sitemap.txt')
+
 @app.route('/analyze', methods=('GET', 'POST'))
 def analyze():
    text = request.form['text']
