@@ -1,0 +1,39 @@
+{% extends 'base.html' %}
+{% block content %}
+    <div class="row">
+        <div class="col">
+                <p class="slug">
+                    Latinate words (words with romance etymology) aren't inherently bad. But they often sound pretentious
+                or snooty. Replacing them with germanic words can strengthen your prose. Why say <em>chamber</em>
+                when you can say <em>room</em>? Why write <em>irate</em> when you can say <em>angry</em> or <em>mad</em>? 
+                This tool helps track down latinate words you might replace with germanic counterparts. The world is full 
+                of latinate words. We track about 300 of them (see the list on the right of this page).
+                </p>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-2"></div>
+        <div class="col-5">
+            <h4>Find latinate words</h4>
+            Paste your text here (max 30,000 chars)
+            <br/>
+            <form action="analyze-latinate", method="post">
+                {{ form.csrf_token}}
+                {{ form.text() | safe }}
+                <br/>
+                {{ form.submit }}
+            </form>    
+           
+        </div>
+        <div class="col-1"></div>
+        <div class="col">
+            <h4>Latinate Words We Count</h4>
+            {% for word in latinates %}
+             {{ word }}<br/>
+            {% endfor %}
+
+        </div>
+    </div>
+</div>
+{% endblock %}

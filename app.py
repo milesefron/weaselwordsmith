@@ -16,9 +16,12 @@ csrf = CSRFProtect(app)
 api_endpoint =  app.config['API_ENDPOINT'] 
 
 weasel_words = []
-r = requests.get(url=api_endpoint + '/vocab')
+r = requests.get(url=api_endpoint + '/weasel-words/vocab')
 weasel_words = r.json()
 
+latinates = {}
+r = requests.get(url=api_endpoint + '/latinate/vocab')
+latinates = r.json()
 
 STORY_MAX_SEGMENT_LENGTH = 5000
 STORY_MAX_LENGTH = 30000
@@ -42,13 +45,22 @@ def stats():
    form = TextForm()
    return render_template('stats.html', form=form, weasel_words=weasel_words)
 
+@app.route('/latinate')
+def latinate():
+   form = TextForm()
+   return render_template('latinate.html', form=form, latinates=latinates)
+
 @app.route('/help')
 def help():
    return render_template('help.html', weasel_words=weasel_words)
 
-@app.route('/sitemap')
+@app.route('/sitemap.xml')
 def sitemap():
    return render_template('sitemap.xml')
+
+@app.route('/robots.txt')
+def robots():
+   return render_template('robots.txt')
 
 @app.route('/analyze', methods=('GET', 'POST'))
 def analyze():
@@ -63,12 +75,32 @@ def analyze():
       analysis = utils.handle_long_text(text, STORY_MAX_SEGMENT_LENGTH, api_endpoint, 'analysis')
    else:
       parameters = {'text': text}
-      r = requests.post(url = api_endpoint + '/analysis', params = parameters)
+      r = requests.post(url = api_endpoint + '/weasel-words', params = parameters)
       analysis = r.json()
       
    print(json.dumps(analysis, indent=4))
    message = 'We found ' + str(len(analysis['counts'])) + ' of the ' + str(len(weasel_words)) + ' weasel words in your prose.'         
    return render_template('analyze.html', weasel_words=weasel_words, analysis=analysis, message=message)
+
+@app.route('/analyze-latinate', methods=('GET', 'POST'))
+def analyze_latinate():
+   text = request.form['text']
+
+   if len(text) > STORY_MAX_LENGTH:
+      form = TextForm()
+      flash('Too long! Try a shorter paste.')
+      return render_template('latinate.html', form=form)
+   
+   if len(text) > STORY_MAX_SEGMENT_LENGTH:
+      analysis = utils.handle_long_text(text, STORY_MAX_SEGMENT_LENGTH, api_endpoint, 'latinate')
+   else:
+      parameters = {'text': text}
+      r = requests.post(url = api_endpoint + '/latinate', params = parameters)
+      analysis = r.json()
+   
+   print(json.dumps(analysis, indent=4))
+   message = "Results for latinate word analysis"
+   return render_template('analyze.html', analysis=analysis, message=message)
 
 @app.route('/stats', methods=('GET', 'POST'))
 def analyze_stats():
