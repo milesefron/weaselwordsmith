@@ -72,7 +72,7 @@ def analyze():
       return render_template('index.html', form=form, weasel_words=weasel_words)
    
    if len(text) > STORY_MAX_SEGMENT_LENGTH:
-      analysis = utils.handle_long_text(text, STORY_MAX_SEGMENT_LENGTH, api_endpoint, 'analysis')
+      analysis = utils.handle_long_text(text, STORY_MAX_SEGMENT_LENGTH, api_endpoint, 'weasel-words')
    else:
       parameters = {'text': text}
       r = requests.post(url = api_endpoint + '/weasel-words', params = parameters)
@@ -86,6 +86,7 @@ def analyze():
 def analyze_latinate():
    text = request.form['text']
 
+   
    if len(text) > STORY_MAX_LENGTH:
       form = TextForm()
       flash('Too long! Try a shorter paste.')

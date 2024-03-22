@@ -1,0 +1,2646 @@
+{
+    "relinquish": {
+        "regex": "relinquish.*",
+        "germanics": [
+            "abandon",
+            "leave",
+            "leave off",
+            "forsake",
+            "forlet",
+            "give up",
+            "blin"
+        ]
+    },
+    "abdicate": {
+        "regex": "abdicate.*",
+        "germanics": [
+            "abandon",
+            "leave",
+            "leave off",
+            "forsake",
+            "forlet",
+            "give up",
+            "blin"
+        ]
+    },
+    "desert": {
+        "regex": "desert.*",
+        "germanics": [
+            "abandon",
+            "leave",
+            "leave off",
+            "forsake",
+            "forlet",
+            "give up",
+            "blin"
+        ]
+    },
+    "renounce": {
+        "regex": "renounce.*",
+        "germanics": [
+            "abandon",
+            "leave",
+            "leave off",
+            "forsake",
+            "forlet",
+            "give up",
+            "blin"
+        ]
+    },
+    "pain": {
+        "regex": "pain.*",
+        "germanics": [
+            "ache",
+            "hurt",
+            "smart",
+            "woe",
+            "sore",
+            "throe",
+            "wark"
+        ]
+    },
+    "agony": {
+        "regex": "agony.*",
+        "germanics": [
+            "ache",
+            "hurt",
+            "smart",
+            "woe",
+            "sore",
+            "throe",
+            "wark"
+        ]
+    },
+    "fidelity": {
+        "regex": "fidelity.*",
+        "germanics": [
+            "allegiance",
+            "troth"
+        ]
+    },
+    "loyalty": {
+        "regex": "loyalty.*",
+        "germanics": [
+            "allegiance",
+            "troth"
+        ]
+    },
+    "animate": {
+        "regex": "animate.*",
+        "germanics": [
+            "alive",
+            "quick (living)"
+        ]
+    },
+    "rage": {
+        "regex": "rage.*",
+        "germanics": [
+            "anger",
+            "wrath"
+        ]
+    },
+    "ire": {
+        "regex": "ire.*",
+        "germanics": [
+            "anger",
+            "wrath"
+        ]
+    },
+    "series": {
+        "regex": "series.*",
+        "germanics": [
+            "array",
+            "row",
+            "rank",
+            "lineup",
+            "set",
+            "lot",
+            "list"
+        ]
+    },
+    "order": {
+        "regex": "order.*",
+        "germanics": [
+            "behest",
+            "bidding"
+        ]
+    },
+    "sequence": {
+        "regex": "sequence.*",
+        "germanics": [
+            "array",
+            "row",
+            "rank",
+            "lineup",
+            "set",
+            "lot",
+            "list"
+        ]
+    },
+    "response": {
+        "regex": "response.*",
+        "germanics": [
+            "answer"
+        ]
+    },
+    "inquire": {
+        "regex": "inquire.*",
+        "germanics": [
+            "ask",
+            "frain",
+            "beseech",
+            "beg",
+            "seek"
+        ]
+    },
+    "request": {
+        "regex": "request.*",
+        "germanics": [
+            "ask",
+            "frain",
+            "beseech",
+            "beg",
+            "seek"
+        ]
+    },
+    "cognizant": {
+        "regex": "cognizant.*",
+        "germanics": [
+            "aware",
+            "abreast",
+            "up to speed (idiom",
+            "compound word)"
+        ]
+    },
+    "signal": {
+        "regex": "signal.*",
+        "germanics": [
+            "beacon",
+            "buoy",
+            "flag",
+            "herald",
+            "harbinger",
+            "guide"
+        ]
+    },
+    "indicator": {
+        "regex": "indicator.*",
+        "germanics": [
+            "beacon",
+            "buoy",
+            "flag",
+            "herald",
+            "harbinger",
+            "guide"
+        ]
+    },
+    "prior": {
+        "regex": "prior.*",
+        "germanics": [
+            "before",
+            "beforehand",
+            "ahead of",
+            "ere"
+        ]
+    },
+    "previous": {
+        "regex": "previous.*",
+        "germanics": [
+            "former",
+            "erstwhile",
+            "aforegoing",
+            "whilom"
+        ]
+    },
+    "action": {
+        "regex": "action.*",
+        "germanics": [
+            "behaviour",
+            "bearing",
+            "etiquette",
+            "guise",
+            "way"
+        ]
+    },
+    "attitude": {
+        "regex": "attitude.*",
+        "germanics": [
+            "behaviour",
+            "bearing",
+            "etiquette",
+            "guise",
+            "way"
+        ]
+    },
+    "manner": {
+        "regex": "manner.*",
+        "germanics": [
+            "behaviour",
+            "bearing",
+            "etiquette",
+            "guise",
+            "way"
+        ]
+    },
+    "conduct": {
+        "regex": "conduct.*",
+        "germanics": [
+            "behaviour",
+            "bearing",
+            "etiquette",
+            "guise",
+            "way"
+        ]
+    },
+    "command": {
+        "regex": "command.*",
+        "germanics": [
+            "behest",
+            "bidding"
+        ]
+    },
+    "advantage": {
+        "regex": "advantage.*",
+        "germanics": [
+            "behoof",
+            "gain",
+            "foredeal",
+            "boon",
+            "blessing",
+            "welfare"
+        ]
+    },
+    "benefit": {
+        "regex": "benefit.*",
+        "germanics": [
+            "behoof",
+            "gain",
+            "foredeal",
+            "boon",
+            "blessing",
+            "welfare"
+        ]
+    },
+    "commence": {
+        "regex": "commence.*",
+        "germanics": [
+            "begin",
+            "start"
+        ]
+    },
+    "creed": {
+        "regex": "creed.*",
+        "germanics": [
+            "belief",
+            "mindset",
+            "gospel",
+            "truth",
+            "leaning"
+        ]
+    },
+    "remain": {
+        "regex": "remain.*",
+        "germanics": [
+            "belave",
+            "abide",
+            "tarry",
+            "stay"
+        ]
+    },
+    "abdomen": {
+        "regex": "abdomen.*",
+        "germanics": [
+            "belly",
+            "midriff",
+            "womb"
+        ]
+    },
+    "large": {
+        "regex": "large.*",
+        "germanics": [
+            "big",
+            "great",
+            "stour",
+            "mickle",
+            "huge"
+        ]
+    },
+    "grand": {
+        "regex": "grand.*",
+        "germanics": [
+            "big",
+            "great",
+            "stour",
+            "mickle",
+            "huge"
+        ]
+    },
+    "anniversary": {
+        "regex": "anniversary.*",
+        "germanics": [
+            "birthday",
+            "yeartide"
+        ]
+    },
+    "colour": {
+        "regex": "colour.*",
+        "germanics": [
+            "blee",
+            "hue",
+            "dye",
+            "shade",
+            "lit"
+        ]
+    },
+    "flower": {
+        "regex": "flower.*",
+        "germanics": [
+            "bloom",
+            "blossom",
+            "bud",
+            "burgeon"
+        ]
+    },
+    "corpse": {
+        "regex": "corpse.*",
+        "germanics": [
+            "embodiment",
+            "frame",
+            "makeup",
+            "lich"
+        ]
+    },
+    "carcass": {
+        "regex": "carcass.*",
+        "germanics": [
+            "embodiment",
+            "frame",
+            "makeup",
+            "lich"
+        ]
+    },
+    "cadaver": {
+        "regex": "cadaver.*",
+        "germanics": [
+            "embodiment",
+            "frame",
+            "makeup",
+            "lich"
+        ]
+    },
+    "fraternal": {
+        "regex": "fraternal.*",
+        "germanics": [
+            "brotherly"
+        ]
+    },
+    "insect": {
+        "regex": "insect.*",
+        "germanics": [
+            "bug",
+            "beetle"
+        ]
+    },
+    "construct": {
+        "regex": "construct.*",
+        "germanics": [
+            "build",
+            "rear",
+            "raise"
+        ]
+    },
+    "affair": {
+        "regex": "affair.*",
+        "germanics": [
+            "business",
+            "undertaking",
+            "note"
+        ]
+    },
+    "enterprise": {
+        "regex": "enterprise.*",
+        "germanics": [
+            "business",
+            "undertaking",
+            "note"
+        ]
+    },
+    "purchase": {
+        "regex": "purchase.*",
+        "germanics": [
+            "buy",
+            "cop"
+        ]
+    },
+    "veal": {
+        "regex": "veal.*",
+        "germanics": [
+            "calf"
+        ]
+    },
+    "career": {
+        "regex": "career.*",
+        "germanics": [
+            "calling",
+            "job",
+            "lifework",
+            "livelihood",
+            "living"
+        ]
+    },
+    "profession": {
+        "regex": "profession.*",
+        "germanics": [
+            "calling",
+            "job",
+            "lifework",
+            "livelihood",
+            "living"
+        ]
+    },
+    "vocation": {
+        "regex": "vocation.*",
+        "germanics": [
+            "calling",
+            "job",
+            "lifework",
+            "livelihood",
+            "living"
+        ]
+    },
+    "occupation": {
+        "regex": "occupation.*",
+        "germanics": [
+            "calling",
+            "job",
+            "lifework",
+            "livelihood",
+            "living"
+        ]
+    },
+    "employment": {
+        "regex": "employment.*",
+        "germanics": [
+            "calling",
+            "job",
+            "lifework",
+            "livelihood",
+            "living"
+        ]
+    },
+    "feline": {
+        "regex": "feline.*",
+        "germanics": [
+            "cat"
+        ]
+    },
+    "displeasure": {
+        "regex": "displeasure.*",
+        "germanics": [
+            "chagrin",
+            "dismay",
+            "shame"
+        ]
+    },
+    "dissatisfaction": {
+        "regex": "dissatisfaction.*",
+        "germanics": [
+            "chagrin",
+            "dismay",
+            "shame"
+        ]
+    },
+    "elegant": {
+        "regex": "elegant.*",
+        "germanics": [
+            "chic",
+            "trendy",
+            "in vogue",
+            "dapper",
+            "dashing",
+            "swanky",
+            "uptown"
+        ]
+    },
+    "fashionable": {
+        "regex": "fashionable.*",
+        "germanics": [
+            "chic",
+            "trendy",
+            "in vogue",
+            "dapper",
+            "dashing",
+            "swanky",
+            "uptown"
+        ]
+    },
+    "stylish": {
+        "regex": "stylish.*",
+        "germanics": [
+            "chic",
+            "trendy",
+            "in vogue",
+            "dapper",
+            "dashing",
+            "swanky",
+            "uptown"
+        ]
+    },
+    "infant": {
+        "regex": "infant.*",
+        "germanics": [
+            "child",
+            "bairn",
+            "baby",
+            "kid",
+            "newborn"
+        ]
+    },
+    "neonate": {
+        "regex": "neonate.*",
+        "germanics": [
+            "child",
+            "bairn",
+            "baby",
+            "kid",
+            "newborn"
+        ]
+    },
+    "opt": {
+        "regex": "opt[s,ed,ing]?",
+        "germanics": [
+            "choose",
+            "pick",
+            "wale"
+        ]
+    },
+    "select": {
+        "regex": "select.*",
+        "germanics": [
+            "choose",
+            "pick",
+            "wale"
+        ]
+    },
+    "task": {
+        "regex": "task.*",
+        "germanics": [
+            "chore"
+        ]
+    },
+    "frigid": {
+        "regex": "frigid.*",
+        "germanics": [
+            "cold",
+            "chilly",
+            "freezing"
+        ]
+    },
+    "arrive": {
+        "regex": "arrive.*",
+        "germanics": [
+            "come",
+            "land",
+            "reach",
+            "get to",
+            "make (to a place)"
+        ]
+    },
+    "beef": {
+        "regex": "beef.*",
+        "germanics": [
+            "cow",
+            "bull",
+            "neat",
+            "ox",
+            "steer",
+            "bison",
+            "aurochs"
+        ]
+    },
+    "cattle": {
+        "regex": "cattle.*",
+        "germanics": [
+            "cow",
+            "bull",
+            "neat",
+            "ox",
+            "steer",
+            "bison",
+            "aurochs"
+        ]
+    },
+    "diurnal": {
+        "regex": "diurnal.*",
+        "germanics": [
+            "daily"
+        ]
+    },
+    "quotidian": {
+        "regex": "quotidian.*",
+        "germanics": [
+            "daily"
+        ]
+    },
+    "mortal": {
+        "regex": "mortal.*",
+        "germanics": [
+            "deadly",
+            "baneful"
+        ]
+    },
+    "fatal": {
+        "regex": "fatal.*",
+        "germanics": [
+            "deadly",
+            "baneful"
+        ]
+    },
+    "judge": {
+        "regex": "judge.*",
+        "germanics": [
+            "deem",
+            "regard",
+            "hold",
+            "feel",
+            "bethink"
+        ]
+    },
+    "consider": {
+        "regex": "consider.*",
+        "germanics": [
+            "deem",
+            "regard",
+            "hold",
+            "feel",
+            "bethink"
+        ]
+    },
+    "esteem": {
+        "regex": "esteem.*",
+        "germanics": [
+            "deem",
+            "regard",
+            "hold",
+            "feel",
+            "bethink"
+        ]
+    },
+    "venison": {
+        "regex": "venison.*",
+        "germanics": [
+            "deer",
+            "hart",
+            "doe",
+            "hind",
+            "stag",
+            "roe",
+            "buck"
+        ]
+    },
+    "abase": {
+        "regex": "abase.*",
+        "germanics": [
+            "bemean",
+            "belittle",
+            "put down",
+            "lower"
+        ]
+    },
+    "degrade": {
+        "regex": "degrade.*",
+        "germanics": [
+            "bemean",
+            "belittle",
+            "put down",
+            "lower"
+        ]
+    },
+    "humiliate": {
+        "regex": "humiliate.*",
+        "germanics": [
+            "bemean",
+            "belittle",
+            "put down",
+            "lower"
+        ]
+    },
+    "execute": {
+        "regex": "execute.*",
+        "germanics": [
+            "do",
+            "perform",
+            "undertake"
+        ]
+    },
+    "dispatch": {
+        "regex": "dispatch.*",
+        "germanics": [
+            "do",
+            "perform",
+            "undertake"
+        ]
+    },
+    "canine": {
+        "regex": "canine.*",
+        "germanics": [
+            "dog",
+            "hound"
+        ]
+    },
+    "imbibe": {
+        "regex": "imbibe.*",
+        "germanics": [
+            "drink",
+            "swill",
+            "carouse",
+            "wassail",
+            "sip"
+        ]
+    },
+    "beverage": {
+        "regex": "beverage.*",
+        "germanics": [
+            "drink",
+            "swill",
+            "carouse",
+            "wassail",
+            "sip"
+        ]
+    },
+    "pigeon": {
+        "regex": "pigeon.*",
+        "germanics": [
+            "dove"
+        ]
+    },
+    "culver": {
+        "regex": "culver.*",
+        "germanics": [
+            "dove"
+        ]
+    },
+    "serious": {
+        "regex": "serious.*",
+        "germanics": [
+            "earnest",
+            "grim",
+            "stern"
+        ]
+    },
+    "grave": {
+        "regex": "grave.*",
+        "germanics": [
+            "weighty",
+            "meaningful",
+            "key"
+        ]
+    },
+    "sober": {
+        "regex": "sober.*",
+        "germanics": [
+            "earnest",
+            "grim",
+            "stern"
+        ]
+    },
+    "terrain": {
+        "regex": "terrain.*",
+        "germanics": [
+            "dirt",
+            "earth",
+            "land",
+            "ground",
+            "landscape"
+        ]
+    },
+    "oriental": {
+        "regex": "oriental.*",
+        "germanics": [
+            "eastern",
+            "easterly",
+            "eastward"
+        ]
+    },
+    "dine": {
+        "regex": "dine.*",
+        "germanics": [
+            "eat",
+            "sup",
+            "break bread",
+            "banquet",
+            "feed",
+            "snack",
+            "swallow",
+            "nosh",
+            "take in",
+            "bite",
+            "scarf"
+        ]
+    },
+    "consume": {
+        "regex": "consume.*",
+        "germanics": [
+            "eat",
+            "sup",
+            "break bread",
+            "banquet",
+            "feed",
+            "snack",
+            "swallow",
+            "nosh",
+            "take in",
+            "bite",
+            "scarf"
+        ]
+    },
+    "devour": {
+        "regex": "devour.*",
+        "germanics": [
+            "eat",
+            "sup",
+            "break bread",
+            "banquet",
+            "feed",
+            "snack",
+            "swallow",
+            "nosh",
+            "take in",
+            "bite",
+            "scarf"
+        ]
+    },
+    "ingest": {
+        "regex": "ingest.*",
+        "germanics": [
+            "eat",
+            "sup",
+            "break bread",
+            "banquet",
+            "feed",
+            "snack",
+            "swallow",
+            "nosh",
+            "take in",
+            "bite",
+            "scarf"
+        ]
+    },
+    "age": {
+        "regex": "age.*",
+        "germanics": [
+            "eld",
+            "lifetime",
+            "lifespan"
+        ]
+    },
+    "finish": {
+        "regex": "finish.*",
+        "germanics": [
+            "end",
+            "fulfill",
+            "halt",
+            "wrap up",
+            "stop",
+            "blin"
+        ]
+    },
+    "complete": {
+        "regex": "complete.*",
+        "germanics": [
+            "end",
+            "fulfill",
+            "halt",
+            "wrap up",
+            "stop",
+            "blin"
+        ]
+    },
+    "discontinue": {
+        "regex": "discontinue.*",
+        "germanics": [
+            "end",
+            "fulfill",
+            "halt",
+            "wrap up",
+            "stop",
+            "blin"
+        ]
+    },
+    "terminate": {
+        "regex": "terminate.*",
+        "germanics": [
+            "end",
+            "fulfill",
+            "halt",
+            "wrap up",
+            "stop",
+            "blin"
+        ]
+    },
+    "level": {
+        "regex": "level.*",
+        "germanics": [
+            "even",
+            "flat",
+            "smooth",
+            "in line",
+            "lined up",
+            "steady"
+        ]
+    },
+    "planar": {
+        "regex": "planar.*",
+        "germanics": [
+            "even",
+            "flat",
+            "smooth",
+            "in line",
+            "lined up",
+            "steady"
+        ]
+    },
+    "equal": {
+        "regex": "equal.*",
+        "germanics": [
+            "even",
+            "flat",
+            "smooth",
+            "in line",
+            "lined up",
+            "steady"
+        ]
+    },
+    "travel": {
+        "regex": "travel.*",
+        "germanics": [
+            "fare",
+            "trek",
+            "go abroad",
+            "take a trip",
+            "rove",
+            "gallivant"
+        ]
+    },
+    "journey": {
+        "regex": "journey.*",
+        "germanics": [
+            "fare",
+            "trek",
+            "go abroad",
+            "take a trip",
+            "rove",
+            "gallivant"
+        ]
+    },
+    "voyage": {
+        "regex": "voyage.*",
+        "germanics": [
+            "fare",
+            "trek",
+            "go abroad",
+            "take a trip",
+            "rove",
+            "gallivant"
+        ]
+    },
+    "rapid": {
+        "regex": "rapid.*",
+        "germanics": [
+            "fast",
+            "rather",
+            "snell",
+            "quick",
+            "swift",
+            "speedy"
+        ]
+    },
+    "paternal": {
+        "regex": "paternal.*",
+        "germanics": [
+            "fatherly",
+            "fatherlike"
+        ]
+    },
+    "sentiment": {
+        "regex": "sentiment.*",
+        "germanics": [
+            "feeling",
+            "awareness",
+            "touch"
+        ]
+    },
+    "sensation": {
+        "regex": "sensation.*",
+        "germanics": [
+            "feeling",
+            "awareness",
+            "touch"
+        ]
+    },
+    "replenish": {
+        "regex": "replenish.*",
+        "germanics": [
+            "fill up",
+            "stock",
+            "renew"
+        ]
+    },
+    "primary": {
+        "regex": "primary.*",
+        "germanics": [
+            "first",
+            "foremost",
+            "main"
+        ]
+    },
+    "inundate": {
+        "regex": "inundate.*",
+        "germanics": [
+            "flood",
+            "overwhelm",
+            "overset"
+        ]
+    },
+    "ensue": {
+        "regex": "ensue.*",
+        "germanics": [
+            "follow",
+            "track"
+        ]
+    },
+    "preceding": {
+        "regex": "preceding.*",
+        "germanics": [
+            "former",
+            "erstwhile",
+            "aforegoing",
+            "whilom"
+        ]
+    },
+    "prohibit": {
+        "regex": "prohibit.*",
+        "germanics": [
+            "forbid",
+            "ban",
+            "forestall"
+        ]
+    },
+    "prevent": {
+        "regex": "prevent.*",
+        "germanics": [
+            "forbid",
+            "ban",
+            "forestall"
+        ]
+    },
+    "interdict": {
+        "regex": "interdict.*",
+        "germanics": [
+            "forbid",
+            "ban",
+            "forestall"
+        ]
+    },
+    "projection": {
+        "regex": "projection.*",
+        "germanics": [
+            "forecast",
+            "outlook"
+        ]
+    },
+    "predict": {
+        "regex": "predict.*",
+        "germanics": [
+            "foretell",
+            "soothsay",
+            "forebode",
+            "foreshadow"
+        ]
+    },
+    "liberty": {
+        "regex": "liberty.*",
+        "germanics": [
+            "freedom"
+        ]
+    },
+    "amicable": {
+        "regex": "amicable.*",
+        "germanics": [
+            "friendly",
+            "kindly",
+            "warm"
+        ]
+    },
+    "court": {
+        "regex": "court.*",
+        "germanics": [
+            "garden",
+            "yard",
+            "park",
+            "pound",
+            "paddock"
+        ]
+    },
+    "enclosure": {
+        "regex": "enclosure.*",
+        "germanics": [
+            "garden",
+            "yard",
+            "park",
+            "pound",
+            "paddock"
+        ]
+    },
+    "assemble": {
+        "regex": "assemble.*",
+        "germanics": [
+            "gather",
+            "forgather",
+            "gather up",
+            "group",
+            "cluster",
+            "lease"
+        ]
+    },
+    "present": {
+        "regex": "present.*",
+        "germanics": [
+            "gift",
+            "handsel"
+        ]
+    },
+    "provide": {
+        "regex": "provide.*",
+        "germanics": [
+            "give",
+            "afford",
+            "furnish"
+        ]
+    },
+    "joy": {
+        "regex": "joy.*",
+        "germanics": [
+            "gladness",
+            "bliss",
+            "fairness",
+            "mirth",
+            "winsomeness",
+            "happiness",
+            "glee",
+            "thrill",
+            "queem"
+        ]
+    },
+    "felicity": {
+        "regex": "felicity.*",
+        "germanics": [
+            "gladness",
+            "bliss",
+            "fairness",
+            "mirth",
+            "winsomeness",
+            "happiness",
+            "glee",
+            "thrill",
+            "queem"
+        ]
+    },
+    "pleasure": {
+        "regex": "pleasure.*",
+        "germanics": [
+            "gladness",
+            "bliss",
+            "fairness",
+            "mirth",
+            "winsomeness",
+            "happiness",
+            "glee",
+            "thrill",
+            "queem"
+        ]
+    },
+    "delight": {
+        "regex": "delight.*",
+        "germanics": [
+            "gladness",
+            "bliss",
+            "fairness",
+            "mirth",
+            "winsomeness",
+            "happiness",
+            "glee",
+            "thrill",
+            "queem"
+        ]
+    },
+    "deity": {
+        "regex": "deity.*",
+        "germanics": [
+            "goddess",
+            "godhead"
+        ]
+    },
+    "divine": {
+        "regex": "divine.*",
+        "germanics": [
+            "goddess",
+            "godhead"
+        ]
+    },
+    "immortal": {
+        "regex": "immortal.*",
+        "germanics": [
+            "goddess",
+            "godhead"
+        ]
+    },
+    "beneficial": {
+        "regex": "beneficial.*",
+        "germanics": [
+            "good",
+            "well",
+            "helpful",
+            "gainful",
+            "wholesome",
+            "worthwhile"
+        ]
+    },
+    "proceed": {
+        "regex": "proceed.*",
+        "germanics": [
+            "go on",
+            "wend"
+        ]
+    },
+    "verdant": {
+        "regex": "verdant.*",
+        "germanics": [
+            "green",
+            "lush"
+        ]
+    },
+    "estimate": {
+        "regex": "estimate.*",
+        "germanics": [
+            "guess",
+            "fathom",
+            "sound",
+            "gauge"
+        ]
+    },
+    "port": {
+        "regex": "port.*",
+        "germanics": [
+            "harbour",
+            "haven"
+        ]
+    },
+    "difficulty": {
+        "regex": "difficulty.*",
+        "germanics": [
+            "hardship",
+            "ordeal"
+        ]
+    },
+    "detest": {
+        "regex": "detest.*",
+        "germanics": [
+            "hate",
+            "loathe",
+            "scorn"
+        ]
+    },
+    "altitude": {
+        "regex": "altitude.*",
+        "germanics": [
+            "height",
+            "loftiness"
+        ]
+    },
+    "elevation": {
+        "regex": "elevation.*",
+        "germanics": [
+            "height",
+            "loftiness"
+        ]
+    },
+    "assist": {
+        "regex": "assist.*",
+        "germanics": [
+            "help",
+            "abet",
+            "give a hand",
+            "bestand",
+            "bestead"
+        ]
+    },
+    "pullet": {
+        "regex": "pullet.*",
+        "germanics": [
+            "hen"
+        ]
+    },
+    "army": {
+        "regex": "army.*",
+        "germanics": [
+            "here",
+            "ferd"
+        ]
+    },
+    "militia": {
+        "regex": "militia.*",
+        "germanics": [
+            "here",
+            "ferd"
+        ]
+    },
+    "mount": {
+        "regex": "mount.*",
+        "germanics": [
+            "hill",
+            "barrow",
+            "mound",
+            "dune"
+        ]
+    },
+    "vacation": {
+        "regex": "vacation.*",
+        "germanics": [
+            "holiday",
+            "leave",
+            "break",
+            "furlough"
+        ]
+    },
+    "sacred": {
+        "regex": "sacred.*",
+        "germanics": [
+            "holy",
+            "hallowed"
+        ]
+    },
+    "isle": {
+        "regex": "isle.*",
+        "germanics": [
+            "island",
+            "eyot",
+            "holm"
+        ]
+    },
+    "domicile": {
+        "regex": "domicile.*",
+        "germanics": [
+            "house"
+        ]
+    },
+    "irritate": {
+        "regex": "irritate.*",
+        "germanics": [
+            "itch",
+            "irk",
+            "tease",
+            "fret",
+            "grill"
+        ]
+    },
+    "type": {
+        "regex": "type.*",
+        "germanics": [
+            "kind",
+            "ilk",
+            "brand",
+            "breed",
+            "set",
+            "strain",
+            "tier",
+            "like"
+        ]
+    },
+    "class": {
+        "regex": "class.*",
+        "germanics": [
+            "kind",
+            "ilk",
+            "brand",
+            "breed",
+            "set",
+            "strain",
+            "tier",
+            "like"
+        ]
+    },
+    "sort": {
+        "regex": "sort.*",
+        "germanics": [
+            "kind",
+            "ilk",
+            "brand",
+            "breed",
+            "set",
+            "strain",
+            "tier",
+            "like"
+        ]
+    },
+    "genre": {
+        "regex": "genre.*",
+        "germanics": [
+            "kind",
+            "ilk",
+            "brand",
+            "breed",
+            "set",
+            "strain",
+            "tier",
+            "like"
+        ]
+    },
+    "recognize": {
+        "regex": "recognize.*",
+        "germanics": [
+            "know",
+            "wot",
+            "espy",
+            "spot",
+            "tell"
+        ]
+    },
+    "tardy": {
+        "regex": "tardy.*",
+        "germanics": [
+            "late",
+            "delayed"
+        ]
+    },
+    "legal": {
+        "regex": "legal.*",
+        "germanics": [
+            "lawful",
+            "straight",
+            "fair",
+            "rightful",
+            "sound",
+            "meet",
+            "warranted",
+            "fitting"
+        ]
+    },
+    "legit": {
+        "regex": "legit.*",
+        "germanics": [
+            "lawful",
+            "straight",
+            "fair",
+            "rightful",
+            "sound",
+            "meet",
+            "warranted",
+            "fitting"
+        ]
+    },
+    "just": {
+        "regex": "just.*",
+        "germanics": [
+            "lawful",
+            "straight",
+            "fair",
+            "rightful",
+            "sound",
+            "meet",
+            "warranted",
+            "fitting"
+        ]
+    },
+    "proper": {
+        "regex": "proper.*",
+        "germanics": [
+            "lawful",
+            "straight",
+            "fair",
+            "rightful",
+            "sound",
+            "meet",
+            "warranted",
+            "fitting"
+        ]
+    },
+    "chief": {
+        "regex": "chief.*",
+        "germanics": [
+            "leader",
+            "king",
+            "head",
+            "baron",
+            "earl"
+        ]
+    },
+    "captain": {
+        "regex": "captain.*",
+        "germanics": [
+            "leader",
+            "king",
+            "head",
+            "baron",
+            "earl"
+        ]
+    },
+    "emperor": {
+        "regex": "emperor.*",
+        "germanics": [
+            "leader",
+            "king",
+            "head",
+            "baron",
+            "earl"
+        ]
+    },
+    "count": {
+        "regex": "count.*",
+        "germanics": [
+            "leader",
+            "king",
+            "head",
+            "baron",
+            "earl"
+        ]
+    },
+    "duke": {
+        "regex": "duke.*",
+        "germanics": [
+            "leader",
+            "king",
+            "head",
+            "baron",
+            "earl"
+        ]
+    },
+    "president": {
+        "regex": "president.*",
+        "germanics": [
+            "leader",
+            "king",
+            "head",
+            "baron",
+            "earl"
+        ]
+    },
+    "longitude": {
+        "regex": "longitude.*",
+        "germanics": [
+            "length"
+        ]
+    },
+    "repose": {
+        "regex": "repose.*",
+        "germanics": [
+            "lie (down)",
+            "rest",
+            "lean (back)"
+        ]
+    },
+    "recline": {
+        "regex": "recline.*",
+        "germanics": [
+            "lie (down)",
+            "rest",
+            "lean (back)"
+        ]
+    },
+    "amorous": {
+        "regex": "amorous.*",
+        "germanics": [
+            "loving",
+            "fond"
+        ]
+    },
+    "multiple": {
+        "regex": "multiple.*",
+        "germanics": [
+            "many",
+            "manifold",
+            "rife",
+            "teeming"
+        ]
+    },
+    "numerous": {
+        "regex": "numerous.*",
+        "germanics": [
+            "many",
+            "manifold",
+            "rife",
+            "teeming"
+        ]
+    },
+    "abundant": {
+        "regex": "abundant.*",
+        "germanics": [
+            "many",
+            "manifold",
+            "rife",
+            "teeming"
+        ]
+    },
+    "copious": {
+        "regex": "copious.*",
+        "germanics": [
+            "many",
+            "manifold",
+            "rife",
+            "teeming"
+        ]
+    },
+    "correspond": {
+        "regex": "correspond.*",
+        "germanics": [
+            "match",
+            "fit",
+            "answer to"
+        ]
+    },
+    "intend": {
+        "regex": "intend.*",
+        "germanics": [
+            "mean",
+            "betoken",
+            "stand for",
+            "ettle"
+        ]
+    },
+    "signify": {
+        "regex": "signify.*",
+        "germanics": [
+            "mean",
+            "betoken",
+            "stand for",
+            "ettle"
+        ]
+    },
+    "encounter": {
+        "regex": "encounter.*",
+        "germanics": [
+            "meet",
+            "hit"
+        ]
+    },
+    "noon": {
+        "regex": "noon.*",
+        "germanics": [
+            "midday"
+        ]
+    },
+    "error": {
+        "regex": "error.*",
+        "germanics": [
+            "mistake",
+            "blunder",
+            "wrength"
+        ]
+    },
+    "maternal": {
+        "regex": "maternal.*",
+        "germanics": [
+            "motherly"
+        ]
+    },
+    "close": {
+        "regex": "close.*",
+        "germanics": [
+            "shut"
+        ]
+    },
+    "circa": {
+        "regex": "circa.*",
+        "germanics": [
+            "nigh",
+            "near"
+        ]
+    },
+    "approximate": {
+        "regex": "approximate.*",
+        "germanics": [
+            "nigh",
+            "near"
+        ]
+    },
+    "novel": {
+        "regex": "novel.*",
+        "germanics": [
+            "new",
+            "fresh",
+            "now"
+        ]
+    },
+    "modern": {
+        "regex": "modern.*",
+        "germanics": [
+            "new",
+            "fresh",
+            "now"
+        ]
+    },
+    "nocturnal": {
+        "regex": "nocturnal.*",
+        "germanics": [
+            "nightly"
+        ]
+    },
+    "septentrional": {
+        "regex": "septentrional.*",
+        "germanics": [
+            "northern"
+        ]
+    },
+    "ancient": {
+        "regex": "ancient.*",
+        "germanics": [
+            "old",
+            "stale",
+            "elderly",
+            "yore"
+        ]
+    },
+    "antediluvian": {
+        "regex": "antediluvian.*",
+        "germanics": [
+            "old",
+            "stale",
+            "elderly",
+            "yore"
+        ]
+    },
+    "different": {
+        "regex": "different.*",
+        "germanics": [
+            "other",
+            "else"
+        ]
+    },
+    "alternative": {
+        "regex": "alternative.*",
+        "germanics": [
+            "other",
+            "else"
+        ]
+    },
+    "kiln": {
+        "regex": "kiln.*",
+        "germanics": [
+            "oven",
+            "hearth",
+            "stove",
+            "oast",
+            "smithery"
+        ]
+    },
+    "furnace": {
+        "regex": "furnace.*",
+        "germanics": [
+            "oven",
+            "hearth",
+            "stove",
+            "oast",
+            "smithery"
+        ]
+    },
+    "route": {
+        "regex": "route.*",
+        "germanics": [
+            "road",
+            "way",
+            "boulevard",
+            "drive",
+            "path",
+            "street"
+        ]
+    },
+    "avenue": {
+        "regex": "avenue.*",
+        "germanics": [
+            "road",
+            "way",
+            "boulevard",
+            "drive",
+            "path",
+            "street"
+        ]
+    },
+    "itinerary": {
+        "regex": "itinerary.*",
+        "germanics": [
+            "road",
+            "way",
+            "boulevard",
+            "drive",
+            "path",
+            "street"
+        ]
+    },
+    "putrefy": {
+        "regex": "putrefy.*",
+        "germanics": [
+            "rot",
+            "defile",
+            "befoul"
+        ]
+    },
+    "perceive": {
+        "regex": "perceive.*",
+        "germanics": [
+            "see",
+            "ken"
+        ]
+    },
+    "appear": {
+        "regex": "appear.*",
+        "germanics": [
+            "seem",
+            "look"
+        ]
+    },
+    "boil": {
+        "regex": "boil.*",
+        "germanics": [
+            "seethe",
+            "bubble"
+        ]
+    },
+    "identity": {
+        "regex": "identity.*",
+        "germanics": [
+            "selfhood",
+            "likeness",
+            "selfdom"
+        ]
+    },
+    "identical": {
+        "regex": "identical.*",
+        "germanics": [
+            "selfsame"
+        ]
+    },
+    "vend": {
+        "regex": "vend.*",
+        "germanics": [
+            "sell",
+            "trade",
+            "deal in",
+            "bargain"
+        ]
+    },
+    "form": {
+        "regex": "form.*",
+        "germanics": [
+            "shape",
+            "build",
+            "outline"
+        ]
+    },
+    "mutton": {
+        "regex": "mutton.*",
+        "germanics": [
+            "sheep",
+            "lamb"
+        ]
+    },
+    "store": {
+        "regex": "store.*",
+        "germanics": [
+            "shop"
+        ]
+    },
+    "timid": {
+        "regex": "timid.*",
+        "germanics": [
+            "shy"
+        ]
+    },
+    "vision": {
+        "regex": "vision.*",
+        "germanics": [
+            "sight",
+            "seeing",
+            "ken"
+        ]
+    },
+    "art": {
+        "regex": "art.*",
+        "germanics": [
+            "skill",
+            "craft",
+            "cunning",
+            "list"
+        ]
+    },
+    "science": {
+        "regex": "science.*",
+        "germanics": [
+            "skill",
+            "craft",
+            "cunning",
+            "list"
+        ]
+    },
+    "adept": {
+        "regex": "adept.*",
+        "germanics": [
+            "skillful",
+            "crafty",
+            "deft"
+        ]
+    },
+    "dormant": {
+        "regex": "dormant.*",
+        "germanics": [
+            "sleeping",
+            "slumbering",
+            "idle",
+            "fallow"
+        ]
+    },
+    "hibernate": {
+        "regex": "hibernate.*",
+        "germanics": [
+            "sleeping",
+            "slumbering",
+            "idle",
+            "fallow"
+        ]
+    },
+    "torpid": {
+        "regex": "torpid.*",
+        "germanics": [
+            "sleeping",
+            "slumbering",
+            "idle",
+            "fallow"
+        ]
+    },
+    "minute": {
+        "regex": "minute.*",
+        "germanics": [
+            "small",
+            "little",
+            "tiny",
+            "wee"
+        ]
+    },
+    "petite": {
+        "regex": "petite.*",
+        "germanics": [
+            "small",
+            "little",
+            "tiny",
+            "wee"
+        ]
+    },
+    "diminutive": {
+        "regex": "diminutive.*",
+        "germanics": [
+            "small",
+            "little",
+            "tiny",
+            "wee"
+        ]
+    },
+    "serpent": {
+        "regex": "serpent.*",
+        "germanics": [
+            "snake",
+            "worm"
+        ]
+    },
+    "grief": {
+        "regex": "grief.*",
+        "germanics": [
+            "sorrow",
+            "care",
+            "woe"
+        ]
+    },
+    "meridional": {
+        "regex": "meridional.*",
+        "germanics": [
+            "southern"
+        ]
+    },
+    "converse": {
+        "regex": "converse.*",
+        "germanics": [
+            "speak",
+            "talk",
+            "prattle"
+        ]
+    },
+    "discourse": {
+        "regex": "discourse.*",
+        "germanics": [
+            "speak",
+            "talk",
+            "prattle"
+        ]
+    },
+    "communication": {
+        "regex": "communication.*",
+        "germanics": [
+            "speak",
+            "talk",
+            "prattle"
+        ]
+    },
+    "dictation": {
+        "regex": "dictation.*",
+        "germanics": [
+            "speak",
+            "talk",
+            "prattle"
+        ]
+    },
+    "hour": {
+        "regex": "hour.*",
+        "germanics": [
+            "stound",
+            "time",
+            "tide",
+            "while",
+            "throw",
+            "spell",
+            "stint"
+        ]
+    },
+    "moment": {
+        "regex": "moment.*",
+        "germanics": [
+            "stound",
+            "time",
+            "tide",
+            "while",
+            "throw",
+            "spell",
+            "stint"
+        ]
+    },
+    "interval": {
+        "regex": "interval.*",
+        "germanics": [
+            "stound",
+            "time",
+            "tide",
+            "while",
+            "throw",
+            "spell",
+            "stint"
+        ]
+    },
+    "various": {
+        "regex": "various.*",
+        "germanics": [
+            "sundry",
+            "mixed"
+        ]
+    },
+    "miscellaneous": {
+        "regex": "miscellaneous.*",
+        "germanics": [
+            "sundry",
+            "mixed"
+        ]
+    },
+    "pork": {
+        "regex": "pork.*",
+        "germanics": [
+            "swine",
+            "farrow",
+            "sow",
+            "boar",
+            "pig",
+            "hog"
+        ]
+    },
+    "educate": {
+        "regex": "educate.*",
+        "germanics": [
+            "teach",
+            "show",
+            "lere"
+        ]
+    },
+    "relate": {
+        "regex": "relate.*",
+        "germanics": [
+            "tell",
+            "kithe",
+            "make known"
+        ]
+    },
+    "narrate": {
+        "regex": "narrate.*",
+        "germanics": [
+            "tell",
+            "kithe",
+            "make known"
+        ]
+    },
+    "pensive": {
+        "regex": "pensive.*",
+        "germanics": [
+            "thinking",
+            "thoughtful",
+            "mindful"
+        ]
+    },
+    "idea": {
+        "regex": "idea.*",
+        "germanics": [
+            "thought",
+            "hunch",
+            "inkling",
+            "clue"
+        ]
+    },
+    "danger": {
+        "regex": "danger.*",
+        "germanics": [
+            "threat",
+            "plight",
+            "fear"
+        ]
+    },
+    "peril": {
+        "regex": "peril.*",
+        "germanics": [
+            "threat",
+            "plight",
+            "fear"
+        ]
+    },
+    "menace": {
+        "regex": "menace.*",
+        "germanics": [
+            "threat",
+            "plight",
+            "fear"
+        ]
+    },
+    "sign": {
+        "regex": "sign.*",
+        "germanics": [
+            "token",
+            "mark",
+            "hallmark",
+            "hint",
+            "stamp"
+        ]
+    },
+    "symbol": {
+        "regex": "symbol.*",
+        "germanics": [
+            "token",
+            "mark",
+            "hallmark",
+            "hint",
+            "stamp"
+        ]
+    },
+    "trace": {
+        "regex": "trace.*",
+        "germanics": [
+            "token",
+            "mark",
+            "hallmark",
+            "hint",
+            "stamp"
+        ]
+    },
+    "indication": {
+        "regex": "indication.*",
+        "germanics": [
+            "token",
+            "mark",
+            "hallmark",
+            "hint",
+            "stamp"
+        ]
+    },
+    "language": {
+        "regex": "language.*",
+        "germanics": [
+            "tongue",
+            "speech",
+            "talk"
+        ]
+    },
+    "double": {
+        "regex": "double.*",
+        "germanics": [
+            "twin",
+            "twofold",
+            "twi-"
+        ]
+    },
+    "duplicate": {
+        "regex": "duplicate.*",
+        "germanics": [
+            "twin",
+            "twofold",
+            "twi-"
+        ]
+    },
+    "comprehend": {
+        "regex": "comprehend.*",
+        "germanics": [
+            "understand",
+            "get",
+            "grasp"
+        ]
+    },
+    "support": {
+        "regex": "support.*",
+        "germanics": [
+            "uphold",
+            "bolster",
+            "bear up",
+            "undergird",
+            "upbear",
+            "shore up",
+            "stay"
+        ]
+    },
+    "elevating": {
+        "regex": "elevating.*",
+        "germanics": [
+            "uplifting",
+            "rearing"
+        ]
+    },
+    "pronounce": {
+        "regex": "pronounce.*",
+        "germanics": [
+            "utter",
+            "say"
+        ]
+    },
+    "totally": {
+        "regex": "totally.*",
+        "germanics": [
+            "utterly",
+            "altogether",
+            "fully",
+            "wholly"
+        ]
+    },
+    "salary": {
+        "regex": "salary.*",
+        "germanics": [
+            "wage",
+            "meed",
+            "hire"
+        ]
+    },
+    "expect": {
+        "regex": "expect.*",
+        "germanics": [
+            "wait",
+            "await",
+            "bide",
+            "tarry",
+            "ween"
+        ]
+    },
+    "notice": {
+        "regex": "notice.*",
+        "germanics": [
+            "warning",
+            "tip off"
+        ]
+    },
+    "alert": {
+        "regex": "alert.*",
+        "germanics": [
+            "warning",
+            "tip off"
+        ]
+    },
+    "recommendation": {
+        "regex": "recommendation.*",
+        "germanics": [
+            "warning",
+            "tip off"
+        ]
+    },
+    "admonition": {
+        "regex": "admonition.*",
+        "germanics": [
+            "warning",
+            "tip off"
+        ]
+    },
+    "launder": {
+        "regex": "launder.*",
+        "germanics": [
+            "wash",
+            "cleanse",
+            "rinse",
+            "lave",
+            "bathe",
+            "scrub"
+        ]
+    },
+    "observe": {
+        "regex": "observe.*",
+        "germanics": [
+            "watch",
+            "keep",
+            "behold"
+        ]
+    },
+    "supervise": {
+        "regex": "supervise.*",
+        "germanics": [
+            "watch",
+            "keep",
+            "behold"
+        ]
+    },
+    "vigilant": {
+        "regex": "vigilant.*",
+        "germanics": [
+            "watchful",
+            "waking",
+            "wary"
+        ]
+    },
+    "marry": {
+        "regex": "marry.*",
+        "germanics": [
+            "wed"
+        ]
+    },
+    "marriage": {
+        "regex": "marriage.*",
+        "germanics": [
+            "wedlock"
+        ]
+    },
+    "strange": {
+        "regex": "strange.*",
+        "germanics": [
+            "weird",
+            "fremd",
+            "odd",
+            "queer",
+            "uncouth",
+            "outlandish",
+            "eldritch",
+            "eerie",
+            "fey"
+        ]
+    },
+    "mundane": {
+        "regex": "mundane.*",
+        "germanics": [
+            "worldly",
+            "earthly"
+        ]
+    },
+    "secular": {
+        "regex": "secular.*",
+        "germanics": [
+            "worldly",
+            "earthly"
+        ]
+    },
+    "lament": {
+        "regex": "lament.*",
+        "germanics": [
+            "weep",
+            "regret",
+            "bawl",
+            "wail",
+            "whine",
+            "cry",
+            "mourn",
+            "sob"
+        ]
+    },
+    "deplore": {
+        "regex": "deplore.*",
+        "germanics": [
+            "weep",
+            "regret",
+            "bawl",
+            "wail",
+            "whine",
+            "cry",
+            "mourn",
+            "sob"
+        ]
+    },
+    "important": {
+        "regex": "important.*",
+        "germanics": [
+            "weighty",
+            "meaningful",
+            "key"
+        ]
+    },
+    "occidental": {
+        "regex": "occidental.*",
+        "germanics": [
+            "western"
+        ]
+    },
+    "entire": {
+        "regex": "entire.*",
+        "germanics": [
+            "whole"
+        ]
+    },
+    "latitude": {
+        "regex": "latitude.*",
+        "germanics": [
+            "width",
+            "breadth",
+            "span"
+        ]
+    },
+    "savage": {
+        "regex": "savage.*",
+        "germanics": [
+            "wild",
+            "fell",
+            "grim"
+        ]
+    },
+    "feral": {
+        "regex": "feral.*",
+        "germanics": [
+            "wild",
+            "fell",
+            "grim"
+        ]
+    },
+    "prudent": {
+        "regex": "prudent.*",
+        "germanics": [
+            "wise",
+            "clever",
+            "insightful",
+            "enlightened",
+            "keen",
+            "knowledgeable",
+            "shrewd"
+        ]
+    },
+    "intelligent": {
+        "regex": "intelligent.*",
+        "germanics": [
+            "wise",
+            "clever",
+            "insightful",
+            "enlightened",
+            "keen",
+            "knowledgeable",
+            "shrewd"
+        ]
+    },
+    "sapient": {
+        "regex": "sapient.*",
+        "germanics": [
+            "wise",
+            "clever",
+            "insightful",
+            "enlightened",
+            "keen",
+            "knowledgeable",
+            "shrewd"
+        ]
+    },
+    "desire": {
+        "regex": "desire.*",
+        "germanics": [
+            "wish",
+            "will",
+            "yearning",
+            "longing",
+            "lust",
+            "want"
+        ]
+    },
+    "cupidity": {
+        "regex": "cupidity.*",
+        "germanics": [
+            "wish",
+            "will",
+            "yearning",
+            "longing",
+            "lust",
+            "want"
+        ]
+    },
+    "feminine": {
+        "regex": "feminine.*",
+        "germanics": [
+            "womanly"
+        ]
+    },
+    "forest": {
+        "regex": "forest.*",
+        "germanics": [
+            "wood (a wood)",
+            "holt",
+            "weald/wold",
+            "bush",
+            "boscage",
+            "grove",
+            "brush",
+            "thicket",
+            "frith",
+            "shaw"
+        ]
+    },
+    "coppice": {
+        "regex": "coppice.*",
+        "germanics": [
+            "wood (a wood)",
+            "holt",
+            "weald/wold",
+            "bush",
+            "boscage",
+            "grove",
+            "brush",
+            "thicket",
+            "frith",
+            "shaw"
+        ]
+    },
+    "dictionary": {
+        "regex": "dictionary.*",
+        "germanics": [
+            "wordbook"
+        ]
+    },
+    "labor": {
+        "regex": "labor.*",
+        "germanics": [
+            "work",
+            "drudge",
+            "drudgery",
+            "swink"
+        ]
+    },
+    "script": {
+        "regex": "script.*",
+        "germanics": [
+            "writing",
+            "writ"
+        ]
+    },
+    "fate": {
+        "regex": "fate.*",
+        "germanics": [
+            "wyrd",
+            "doom"
+        ]
+    },
+    "destiny": {
+        "regex": "destiny.*",
+        "germanics": [
+            "wyrd",
+            "doom"
+        ]
+    },
+    "annual": {
+        "regex": "annual.*",
+        "germanics": [
+            "yearly"
+        ]
+    },
+    "ochre": {
+        "regex": "ochre.*",
+        "germanics": [
+            "yellow"
+        ]
+    },
+    "juvenile": {
+        "regex": "juvenile.*",
+        "germanics": [
+            "youthful",
+            "young"
+        ]
+    },
+    "immature": {
+        "regex": "immature.*",
+        "germanics": [
+            "youthful",
+            "young"
+        ]
+    },
+    "adolescence": {
+        "regex": "adolescence.*",
+        "germanics": [
+            "youth",
+            "teenhood"
+        ]
+    }
+}
