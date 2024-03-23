@@ -13,7 +13,6 @@ def handle_long_text(text, max_length, api_endpoint, api_method):
     parts = wrap(text, max_length)
     for part in parts:
         parameters = {'text': part}
-        print(api_endpoint + '/' + api_method)
         r = requests.post(url = api_endpoint + '/' + api_method, params = parameters)
         part_analysis = r.json()
 
@@ -29,8 +28,9 @@ def handle_long_text(text, max_length, api_endpoint, api_method):
                 current.append(sentence)
                 analysis['sentences'][term] = current
         
-        for term in part_analysis['alternatives']:
-            analysis['alternatives'][term] = part_analysis['alternatives'][term]
+        if 'alternatives' in part_analysis.keys():
+            for term in part_analysis['alternatives']:
+                analysis['alternatives'][term] = part_analysis['alternatives'][term]
                 
     analysis['counts'] = dict(sorted(analysis['counts'].items(), key=lambda x:x[1], reverse=True))
     return analysis
