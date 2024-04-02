@@ -47,18 +47,6 @@
             "blin"
         ]
     },
-    "pain": {
-        "regex": "pain.*",
-        "germanics": [
-            "ache",
-            "hurt",
-            "smart",
-            "woe",
-            "sore",
-            "throe",
-            "wark"
-        ]
-    },
     "agony": {
         "regex": "agony.*",
         "germanics": [
@@ -74,15 +62,13 @@
     "fidelity": {
         "regex": "fidelity.*",
         "germanics": [
-            "allegiance",
-            "troth"
+            "allegiance"
         ]
     },
     "loyalty": {
         "regex": "loyalty.*",
         "germanics": [
-            "allegiance",
-            "troth"
+            "allegiance"
         ]
     },
     "animate": {
@@ -147,8 +133,6 @@
         "regex": "inquire.*",
         "germanics": [
             "ask",
-            "frain",
-            "beseech",
             "beg",
             "seek"
         ]
@@ -157,7 +141,6 @@
         "regex": "request.*",
         "germanics": [
             "ask",
-            "frain",
             "beseech",
             "beg",
             "seek"
@@ -167,9 +150,7 @@
         "regex": "cognizant.*",
         "germanics": [
             "aware",
-            "abreast",
-            "up to speed (idiom",
-            "compound word)"
+            "abreast"
         ]
     },
     "signal": {
@@ -199,27 +180,21 @@
         "germanics": [
             "before",
             "beforehand",
-            "ahead of",
-            "ere"
+            "ahead of"
         ]
     },
     "previous": {
         "regex": "previous.*",
         "germanics": [
             "former",
-            "erstwhile",
-            "aforegoing",
-            "whilom"
+            "erstwhile"
         ]
     },
     "action": {
         "regex": "action.*",
         "germanics": [
             "behaviour",
-            "bearing",
-            "etiquette",
-            "guise",
-            "way"
+            "bearing"
         ]
     },
     "attitude": {
@@ -262,9 +237,7 @@
     "advantage": {
         "regex": "advantage.*",
         "germanics": [
-            "behoof",
             "gain",
-            "foredeal",
             "boon",
             "blessing",
             "welfare"
@@ -273,9 +246,7 @@
     "benefit": {
         "regex": "benefit.*",
         "germanics": [
-            "behoof",
             "gain",
-            "foredeal",
             "boon",
             "blessing",
             "welfare"
@@ -294,14 +265,12 @@
             "belief",
             "mindset",
             "gospel",
-            "truth",
             "leaning"
         ]
     },
     "remain": {
         "regex": "remain.*",
         "germanics": [
-            "belave",
             "abide",
             "tarry",
             "stay"
@@ -312,7 +281,8 @@
         "germanics": [
             "belly",
             "midriff",
-            "womb"
+            "womb",
+	    "stomach"
         ]
     },
     "large": {
@@ -320,8 +290,6 @@
         "germanics": [
             "big",
             "great",
-            "stour",
-            "mickle",
             "huge"
         ]
     },
@@ -330,26 +298,15 @@
         "germanics": [
             "big",
             "great",
-            "stour",
-            "mickle",
             "huge"
         ]
     },
-    "anniversary": {
-        "regex": "anniversary.*",
+    "color": {
+        "regex": "color.*",
         "germanics": [
-            "birthday",
-            "yeartide"
-        ]
-    },
-    "colour": {
-        "regex": "colour.*",
-        "germanics": [
-            "blee",
             "hue",
             "dye",
-            "shade",
-            "lit"
+            "shade"
         ]
     },
     "flower": {
@@ -364,28 +321,15 @@
     "corpse": {
         "regex": "corpse.*",
         "germanics": [
-            "embodiment",
-            "frame",
-            "makeup",
-            "lich"
-        ]
-    },
-    "carcass": {
-        "regex": "carcass.*",
-        "germanics": [
-            "embodiment",
-            "frame",
-            "makeup",
-            "lich"
+            "body",
+            "carcass"
         ]
     },
     "cadaver": {
         "regex": "cadaver.*",
         "germanics": [
-            "embodiment",
-            "frame",
-            "makeup",
-            "lich"
+            "body",
+            "carcass"
         ]
     },
     "fraternal": {
@@ -428,8 +372,7 @@
     "purchase": {
         "regex": "purchase.*",
         "germanics": [
-            "buy",
-            "cop"
+            "buy"
         ]
     },
     "veal": {
@@ -570,16 +513,14 @@
         "regex": "opt[s,ed,ing]?",
         "germanics": [
             "choose",
-            "pick",
-            "wale"
+            "pick"
         ]
     },
     "select": {
         "regex": "select.*",
         "germanics": [
             "choose",
-            "pick",
-            "wale"
+            "pick"
         ]
     },
     "task": {
@@ -613,9 +554,7 @@
             "bull",
             "neat",
             "ox",
-            "steer",
-            "bison",
-            "aurochs"
+            "steer"
         ]
     },
     "cattle": {
@@ -625,9 +564,7 @@
             "bull",
             "neat",
             "ox",
-            "steer",
-            "bison",
-            "aurochs"
+            "steer"
         ]
     },
     "diurnal": {
@@ -662,8 +599,7 @@
             "deem",
             "regard",
             "hold",
-            "feel",
-            "bethink"
+            "feel"
         ]
     },
     "consider": {
@@ -672,8 +608,7 @@
             "deem",
             "regard",
             "hold",
-            "feel",
-            "bethink"
+            "feel"
         ]
     },
     "esteem": {
@@ -682,8 +617,7 @@
             "deem",
             "regard",
             "hold",
-            "feel",
-            "bethink"
+            "feel"
         ]
     },
     "venison": {
@@ -692,7 +626,6 @@
             "deer",
             "hart",
             "doe",
-            "hind",
             "stag",
             "roe",
             "buck"
@@ -701,7 +634,6 @@
     "abase": {
         "regex": "abase.*",
         "germanics": [
-            "bemean",
             "belittle",
             "put down",
             "lower"
@@ -710,7 +642,6 @@
     "degrade": {
         "regex": "degrade.*",
         "germanics": [
-            "bemean",
             "belittle",
             "put down",
             "lower"
@@ -719,7 +650,6 @@
     "humiliate": {
         "regex": "humiliate.*",
         "germanics": [
-            "bemean",
             "belittle",
             "put down",
             "lower"
@@ -754,7 +684,6 @@
             "drink",
             "swill",
             "carouse",
-            "wassail",
             "sip"
         ]
     },
@@ -763,8 +692,6 @@
         "germanics": [
             "drink",
             "swill",
-            "carouse",
-            "wassail",
             "sip"
         ]
     },
@@ -807,7 +734,6 @@
     "terrain": {
         "regex": "terrain.*",
         "germanics": [
-            "dirt",
             "earth",
             "land",
             "ground",
@@ -828,13 +754,9 @@
             "eat",
             "sup",
             "break bread",
-            "banquet",
             "feed",
-            "snack",
-            "swallow",
             "nosh",
             "take in",
-            "bite",
             "scarf"
         ]
     },
@@ -889,7 +811,6 @@
     "age": {
         "regex": "age.*",
         "germanics": [
-            "eld",
             "lifetime",
             "lifespan"
         ]
@@ -901,8 +822,7 @@
             "fulfill",
             "halt",
             "wrap up",
-            "stop",
-            "blin"
+            "stop"
         ]
     },
     "complete": {
@@ -912,8 +832,7 @@
             "fulfill",
             "halt",
             "wrap up",
-            "stop",
-            "blin"
+            "stop"
         ]
     },
     "discontinue": {
@@ -923,8 +842,7 @@
             "fulfill",
             "halt",
             "wrap up",
-            "stop",
-            "blin"
+            "stop"
         ]
     },
     "terminate": {
@@ -934,8 +852,7 @@
             "fulfill",
             "halt",
             "wrap up",
-            "stop",
-            "blin"
+            "stop"
         ]
     },
     "level": {
@@ -963,12 +880,7 @@
     "equal": {
         "regex": "equal.*",
         "germanics": [
-            "even",
-            "flat",
-            "smooth",
-            "in line",
-            "lined up",
-            "steady"
+            "even"
         ]
     },
     "travel": {
@@ -1008,8 +920,6 @@
         "regex": "rapid.*",
         "germanics": [
             "fast",
-            "rather",
-            "snell",
             "quick",
             "swift",
             "speedy"
@@ -1026,16 +936,14 @@
         "regex": "sentiment.*",
         "germanics": [
             "feeling",
-            "awareness",
-            "touch"
+            "awareness"
         ]
     },
     "sensation": {
         "regex": "sensation.*",
         "germanics": [
             "feeling",
-            "awareness",
-            "touch"
+            "awareness"
         ]
     },
     "replenish": {
@@ -1074,8 +982,7 @@
         "germanics": [
             "former",
             "erstwhile",
-            "aforegoing",
-            "whilom"
+            "aforegoing"
         ]
     },
     "prohibit": {
@@ -1156,18 +1063,16 @@
         "regex": "assemble.*",
         "germanics": [
             "gather",
-            "forgather",
             "gather up",
             "group",
-            "cluster",
-            "lease"
+            "cluster"
         ]
     },
     "present": {
         "regex": "present.*",
         "germanics": [
             "gift",
-            "handsel"
+            "here"
         ]
     },
     "provide": {
@@ -1237,6 +1142,7 @@
     "deity": {
         "regex": "deity.*",
         "germanics": [
+	    "god",
             "goddess",
             "godhead"
         ]
@@ -1244,15 +1150,18 @@
     "divine": {
         "regex": "divine.*",
         "germanics": [
-            "goddess",
-            "godhead"
+            "godly",
+            "holy"
         ]
     },
     "immortal": {
         "regex": "immortal.*",
         "germanics": [
-            "goddess",
-            "godhead"
+            "deathless",
+	    "endless",
+	    "everylasting",
+	    "lasting",
+            "undying"
         ]
     },
     "beneficial": {
@@ -1330,29 +1239,26 @@
         "germanics": [
             "help",
             "abet",
-            "give a hand",
-            "bestand",
-            "bestead"
+            "give a hand"
         ]
     },
     "pullet": {
         "regex": "pullet.*",
         "germanics": [
+	    "chicken",
             "hen"
         ]
     },
     "army": {
         "regex": "army.*",
         "germanics": [
-            "here",
-            "ferd"
+            "troops"
         ]
     },
     "militia": {
         "regex": "militia.*",
         "germanics": [
-            "here",
-            "ferd"
+            "troops"
         ]
     },
     "mount": {
@@ -1383,15 +1289,16 @@
     "isle": {
         "regex": "isle.*",
         "germanics": [
-            "island",
-            "eyot",
+            "atoll",
+            "key",
             "holm"
         ]
     },
     "domicile": {
         "regex": "domicile.*",
         "germanics": [
-            "house"
+            "house",
+	    "home"
         ]
     },
     "irritate": {
@@ -1400,8 +1307,7 @@
             "itch",
             "irk",
             "tease",
-            "fret",
-            "grill"
+            "fret"
         ]
     },
     "type": {
@@ -1460,9 +1366,10 @@
         "regex": "recognize.*",
         "germanics": [
             "know",
-            "wot",
+            "see",
             "espy",
             "spot",
+	    "grant",
             "tell"
         ]
     },
@@ -1528,21 +1435,19 @@
     "chief": {
         "regex": "chief.*",
         "germanics": [
+	    "boss",
             "leader",
             "king",
-            "head",
-            "baron",
-            "earl"
+            "head"
         ]
     },
     "captain": {
         "regex": "captain.*",
         "germanics": [
+	    "boss",
             "leader",
             "king",
-            "head",
-            "baron",
-            "earl"
+            "head"
         ]
     },
     "emperor": {
@@ -1550,39 +1455,15 @@
         "germanics": [
             "leader",
             "king",
-            "head",
-            "baron",
-            "earl"
+            "head"
         ]
     },
     "count": {
         "regex": "count.*",
         "germanics": [
-            "leader",
-            "king",
-            "head",
-            "baron",
-            "earl"
-        ]
-    },
-    "duke": {
-        "regex": "duke.*",
-        "germanics": [
-            "leader",
-            "king",
-            "head",
-            "baron",
-            "earl"
-        ]
-    },
-    "president": {
-        "regex": "president.*",
-        "germanics": [
-            "leader",
-            "king",
-            "head",
-            "baron",
-            "earl"
+            "number",
+            "tally",
+            "tot up"
         ]
     },
     "longitude": {
@@ -1654,39 +1535,32 @@
         "regex": "correspond.*",
         "germanics": [
             "match",
-            "fit",
-            "answer to"
+            "fit"
         ]
     },
     "intend": {
         "regex": "intend.*",
         "germanics": [
             "mean",
-            "betoken",
-            "stand for",
-            "ettle"
+            "plan",
+            "hope"
         ]
     },
     "signify": {
         "regex": "signify.*",
         "germanics": [
             "mean",
-            "betoken",
-            "stand for",
-            "ettle"
+            "mark",
+            "signal",
+	    "spell"
         ]
     },
     "encounter": {
         "regex": "encounter.*",
         "germanics": [
             "meet",
+	    "run into",
             "hit"
-        ]
-    },
-    "noon": {
-        "regex": "noon.*",
-        "germanics": [
-            "midday"
         ]
     },
     "error": {
@@ -1694,7 +1568,7 @@
         "germanics": [
             "mistake",
             "blunder",
-            "wrength"
+            "gaffe (Fr.)"
         ]
     },
     "maternal": {
@@ -1706,20 +1580,20 @@
     "close": {
         "regex": "close.*",
         "germanics": [
-            "shut"
+            "shut",
+	    "nearby"
         ]
     },
     "circa": {
         "regex": "circa.*",
         "germanics": [
-            "nigh",
             "near"
         ]
     },
     "approximate": {
         "regex": "approximate.*",
         "germanics": [
-            "nigh",
+	    "about",
             "near"
         ]
     },
@@ -1727,8 +1601,7 @@
         "regex": "novel.*",
         "germanics": [
             "new",
-            "fresh",
-            "now"
+            "fresh"
         ]
     },
     "modern": {
@@ -1828,12 +1701,9 @@
     "itinerary": {
         "regex": "itinerary.*",
         "germanics": [
-            "road",
+            "plan",
             "way",
-            "boulevard",
-            "drive",
-            "path",
-            "street"
+            "path"
         ]
     },
     "putrefy": {
@@ -1870,13 +1740,14 @@
         "germanics": [
             "selfhood",
             "likeness",
-            "selfdom"
+            "self"
         ]
     },
     "identical": {
         "regex": "identical.*",
         "germanics": [
-            "selfsame"
+            "selfsame",
+	    "same"
         ]
     },
     "vend": {
@@ -1923,22 +1794,12 @@
             "ken"
         ]
     },
-    "art": {
-        "regex": "art.*",
-        "germanics": [
-            "skill",
-            "craft",
-            "cunning",
-            "list"
-        ]
-    },
     "science": {
         "regex": "science.*",
         "germanics": [
             "skill",
             "craft",
-            "cunning",
-            "list"
+            "cunning"
         ]
     },
     "adept": {
@@ -1961,8 +1822,8 @@
     "hibernate": {
         "regex": "hibernate.*",
         "germanics": [
-            "sleeping",
-            "slumbering",
+            "sleep",
+            "slumber",
             "idle",
             "fallow"
         ]
@@ -1972,8 +1833,7 @@
         "germanics": [
             "sleeping",
             "slumbering",
-            "idle",
-            "fallow"
+            "idle"
         ]
     },
     "minute": {
@@ -2006,8 +1866,7 @@
     "serpent": {
         "regex": "serpent.*",
         "germanics": [
-            "snake",
-            "worm"
+            "snake"
         ]
     },
     "grief": {
@@ -2035,9 +1894,9 @@
     "discourse": {
         "regex": "discourse.*",
         "germanics": [
-            "speak",
+            "speech",
             "talk",
-            "prattle"
+            "chat"
         ]
     },
     "communication": {
@@ -2048,23 +1907,20 @@
             "prattle"
         ]
     },
-    "dictation": {
-        "regex": "dictation.*",
+    "dictate": {
+        "regex": "dictate.*",
         "germanics": [
             "speak",
             "talk",
-            "prattle"
+            "read"
         ]
     },
     "hour": {
         "regex": "hour.*",
         "germanics": [
-            "stound",
             "time",
             "tide",
             "while",
-            "throw",
-            "spell",
             "stint"
         ]
     },
@@ -2075,7 +1931,6 @@
             "time",
             "tide",
             "while",
-            "throw",
             "spell",
             "stint"
         ]
@@ -2087,7 +1942,6 @@
             "time",
             "tide",
             "while",
-            "throw",
             "spell",
             "stint"
         ]
@@ -2122,7 +1976,7 @@
         "germanics": [
             "teach",
             "show",
-            "lere"
+            "learn"
         ]
     },
     "relate": {
@@ -2234,16 +2088,14 @@
         "regex": "double.*",
         "germanics": [
             "twin",
-            "twofold",
-            "twi-"
+            "twofold"
         ]
     },
     "duplicate": {
         "regex": "duplicate.*",
         "germanics": [
             "twin",
-            "twofold",
-            "twi-"
+            "twofold"
         ]
     },
     "comprehend": {
@@ -2294,7 +2146,8 @@
         "germanics": [
             "wage",
             "meed",
-            "hire"
+            "hire",
+	    "pay"
         ]
     },
     "expect": {
@@ -2316,13 +2169,6 @@
     },
     "alert": {
         "regex": "alert.*",
-        "germanics": [
-            "warning",
-            "tip off"
-        ]
-    },
-    "recommendation": {
-        "regex": "recommendation.*",
         "germanics": [
             "warning",
             "tip off"
@@ -2351,7 +2197,8 @@
         "germanics": [
             "watch",
             "keep",
-            "behold"
+            "behold",
+	    "see"
         ]
     },
     "supervise": {
@@ -2359,7 +2206,8 @@
         "germanics": [
             "watch",
             "keep",
-            "behold"
+            "behold",
+	    "oversee"
         ]
     },
     "vigilant": {
@@ -2426,9 +2274,7 @@
     "deplore": {
         "regex": "deplore.*",
         "germanics": [
-            "weep",
             "regret",
-            "bawl",
             "wail",
             "whine",
             "cry",
@@ -2593,13 +2439,13 @@
         "regex": "script.*",
         "germanics": [
             "writing",
-            "writ"
+            "alphabet (Gr.)"
         ]
     },
     "fate": {
         "regex": "fate.*",
         "germanics": [
-            "wyrd",
+            "kismet",
             "doom"
         ]
     },
