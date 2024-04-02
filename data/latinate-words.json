@@ -1899,10 +1899,10 @@
             "chat"
         ]
     },
-    "communication": {
-        "regex": "communication.*",
+    "communicate": {
+        "regex": "communicat.*",
         "germanics": [
-            "speak",
+            "speech",
             "talk",
             "prattle"
         ]
