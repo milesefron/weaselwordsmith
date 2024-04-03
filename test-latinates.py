@@ -1,19 +1,33 @@
 import json
 import re
 
-file = '../rescue/story.txt'
+
+
+
+def update_regexes():
+    file = './data/latinate-words.json'
+    with open(file, 'r') as f:
+        latins = json.load(f)
+
+    new = {}
+    for latin in latins.keys():
+        entry = latins[latin]
+        regex = r"\W" + entry.get('regex')
+        entry['regex'] = regex
+        new[latin] = entry
+
+    with open(file, 'w') as f:
+        json.dump(new, f, indent=4)
+
+
+
+
+file = './data/latinate-words.json'
 with open(file, 'r') as f:
-    text = f.read().replace('\n', ' ').replace('  ', ' ')
+    latins = json.load(f)
 
-file = './latinate-words.json'
-with open(file, 'r') as f:
-    latinates = json.load(f)
-print(json.dumps(latinates, indent=4))
-
-sentences = text.split('. ')
-
-for sentence in sentences:
-    for latinate in latinates.keys():
-        if re.findall(latinates[latinate]['regex'], sentence, re.IGNORECASE):
-            #print(latinate, latinates[latinate])
-            print("<entry>" + latinate + "</entry>", sentence)
+text = ' ireland you must be tired'
+for latin in latins.keys():
+    regex = latins.get(latin).get('regex')
+    if re.findall(regex, text):
+        print(latin, regex)
